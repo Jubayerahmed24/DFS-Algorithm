@@ -73,13 +73,12 @@ Below is the Pseudocode of the DFS. In the init() function, we run the DFS funct
 2.	    u.visited = true  
 3.	    for each v ∈ G.Adj[u]  
 4.	        if v.visited == false  
-5.	            DFS(G,v)  
-6.	       
-7.	init() {  
-8.	    For each u ∈ G  
-9.	        u.visited = false  
-10.	     For each u ∈ G  
-11.	       DFS(G, u)  12.	}  
+5.	            DFS(G,v)        
+6.	init() {  
+7.	    For each u ∈ G  
+8.	        u.visited = false  
+9.	     For each u ∈ G  
+10.	       DFS(G, u)  12.	}  
 
 Let's implement the DFS using the Python code. <a href="https://github.com/Jubayerahmed24/DFS-Algorithm/blob/main/Example%201.py">lExample -1</a>
 
