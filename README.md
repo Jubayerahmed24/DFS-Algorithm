@@ -42,7 +42,7 @@ Output:
 Following is Depth First Traversal (starting from vertex 2) 
   2 0 1 3 
 
-#Implementing Depth First Search (A non-recursive approach)
+# Implementing Depth First Search (A non-recursive approach)
 
 Let's consider the following graph for the DFS implementation.
 
