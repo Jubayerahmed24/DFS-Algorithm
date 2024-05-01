@@ -50,7 +50,7 @@ Let's consider the following graph for the DFS implementation.
 
 Let's define the graph as an adjacency list using the Python Dictionary.
 
-1.	graph = {"A":["B","C","D"],  
+1.	   graph = {"A":["B","C","D"],  
 2.	   "B":["E"],  
 3.	   "C":["G","F"],  
 4.	   "D":["H"],  
@@ -69,12 +69,12 @@ o	If the node is not visited, it will be added to the path and all of its neighb
 # DFS Pseudocode
 Below is the Pseudocode of the DFS. In the init() function, we run the DFS function on every node because most of the times, a graph may contain two different disconnect part. So it makes sure that we cover every vertex, can also run DFS algorithm on every node.
 
-1.	DFS(G, u)  
+1.	    DFS(G, u)  
 2.	    u.visited = true  
 3.	    for each v ∈ G.Adj[u]  
 4.	        if v.visited == false  
 5.	            DFS(G,v)        
-6.	init() {  
+6.	    init() {  
 7.	    For each u ∈ G  
 8.	        u.visited = false  
 9.	     For each u ∈ G  
